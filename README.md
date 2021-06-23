@@ -16,9 +16,9 @@ Durante a matéria de Estrutura de Dados no terceiro semestre da faculdade, estr
 
 ### Tempo de execução
 
-Java possui uma função nativa:
+Java possui uma função nativa que retorna os milissegundos entre o tempo atual e meia noite do dia 01/01/1970, e 
 ```
-System.getCurrentTimeMillis();
+System.currentTimeMillis();
 ```
 
 
