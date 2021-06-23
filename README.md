@@ -21,7 +21,6 @@ Java possui uma função nativa que retorna os milissegundos entre o tempo atual
 t1 = System.currentTimeMillis();
 t2 = System.currentTimeMillis();
 System.out.println("Duracao em millissegundos: " + (t2 - t1));
-
 ```
 
 Como C não possui uma função pronta igual a de Java, estruturamo uma que tem praticamente o mesmo efeito
