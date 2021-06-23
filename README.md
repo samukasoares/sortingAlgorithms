@@ -15,3 +15,19 @@ Durante a matéria de Estrutura de Dados no terceiro semestre da faculdade, estr
 ---
 
 ### Tempo de execução
+
+Java possui uma função nativa:
+```
+System.getCurrentTimeMillis();
+```
+
+
+```
+unsigned long long current_timestamp() {
+    struct timeval tv;
+    unsigned long long tim;
+    gettimeofday(&tv, NULL);
+    tim = 1000000 * tv.tv_sec + tv.tv_usec;
+    return tim;
+}
+```
